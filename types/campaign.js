@@ -9,7 +9,7 @@ var Campaign = Backbone.Model.extend({
 
     // budget
     if (!attrs.budget) {
-      validationErrors.push(new Error('budget is required'));
+      //validationErrors.push(new Error('budget is required'));
     }
 
     // endDate
@@ -54,7 +54,7 @@ var Campaign = Backbone.Model.extend({
     }
 
     if (!attrs.name) {
-      validationErrors.push(new Error('name is required'));
+     // validationErrors.push(new Error('name is required'));
     } else {
       if (
         attrs.name.indexOf('\x00') +
