@@ -52,7 +52,7 @@ module.exports = {
   AdwordsUserListService: null,
   BudgetService: require('./services/budgetService'),
   CampaignCriterionService: require('./services/campaignCriterionService'),
-  CampaignExtensionSettingService: null,
+  CampaignExtensionSettingService: require('./services/campaignExtensionSettingService'),
   CampaignFeedService: null,
   CampaignService: require('./services/campaignService'),
   ConversionTrackerService: null,
