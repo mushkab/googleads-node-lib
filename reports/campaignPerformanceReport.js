@@ -122,7 +122,6 @@ function Report(options) {
     'ServingStatus',
     // 'Slot',
     'StartDate',
-    'TotalCost',
     'TrackingUrlTemplate',
     'ValuePerAllConversion',
     'ValuePerConversion',

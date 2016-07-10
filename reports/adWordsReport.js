@@ -71,7 +71,9 @@ function AdWordsReport(options) {
             Authorization: 'Bearer ' + self.credentials.access_token,
             developerToken: self.options.ADWORDS_DEVELOPER_TOKEN,
             clientCustomerId: options.clientCustomerId,
-            'Content-Type': 'application/x-www-form-urlencoded'
+            'Content-Type': 'application/x-www-form-urlencoded',
+            includeZeroImpressions:options.includeZeroImpressions,
+            skipReportSummary : options.skipReportSummary
           },
           method: 'POST',
           url: self.reportUrl,
